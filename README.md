@@ -20,6 +20,8 @@ Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
  2. Create the Navbar.jsx file and add the code required for it (done)
  3. Create the Navbar.scss file and add the necessary styling (done)
  4. Make the Navbar responsive (done)
+ 5. Create the NavigationDots.jsx section
+ 6. Create the Social media section
 
 - About section
   1. Create the files needed for the task 
