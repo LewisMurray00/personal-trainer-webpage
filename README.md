@@ -24,16 +24,16 @@ Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
  6. Create the Social media section
 
 - Header
-  1. Create the files needed for the task 
-  2. Create the Header.jsx file and add the code required for it 
-  3. Create the Header.scss file and add the necessary styling 
-4. Make the Header responsive 
+  1. Create the files needed for the task (done)
+  2. Create the Header.jsx file and add the code required for it (done)
+  3. Create the Header.scss file and add the necessary styling (done)
+4. Make the Header responsive (done)
 
 - About section
-  1. Create the files needed for the task 
-  2. Create the About.jsx file and add the code required for it 
- 3. Create the About.scss file and add the necessary styling 
- 4. Make the About responsive 
+  1. Create the files needed for the task (done)
+  2. Create the About.jsx file and add the code required for it (done)
+ 3. Create the About.scss file and add the necessary styling (done)
+ 4. Make the About responsive (done)
 
 - Work section
 - Testimonial section
