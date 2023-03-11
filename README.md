@@ -23,6 +23,12 @@ Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
  5. Create the NavigationDots.jsx section
  6. Create the Social media section
 
+- Header
+  1. Create the files needed for the task 
+  2. Create the Header.jsx file and add the code required for it 
+  3. Create the Header.scss file and add the necessary styling 
+4. Make the Header responsive 
+
 - About section
   1. Create the files needed for the task 
   2. Create the About.jsx file and add the code required for it 
