@@ -4,6 +4,9 @@ import './About.scss'
 import { motion } from 'framer-motion';
 import { images } from '../../constants';
 
+import { AppWrap } from '../../wrapper';
+import { MotionWrap } from '../../wrapper';
+
 const abouts = [
     {
         title: 'Online Coaching',
@@ -26,7 +29,7 @@ const About = () => {
   return (
     <>
         <h2 className='head-text'>
-            Here is what you can expect working with me to <span>achieve your goals</span>
+            Here is what i have available to help you <span>achieve your goals</span>
         </h2>
 
         <div className='app__profiles'>
@@ -48,4 +51,8 @@ const About = () => {
   )
 }
 
-export default About
+export default AppWrap(
+    MotionWrap(About, 'app__about'),
+    'about',
+    'app__whitebg'
+);
