@@ -4,7 +4,6 @@ import { motion } from 'framer-motion';
 import { images } from '../../constants';
 import './Header.scss';
 
-
 const Header = () => {
   return (
     <div className='app__header app__flex'>
@@ -45,9 +44,6 @@ const Header = () => {
             className='overlay_circle'
             />
         </motion.div>
-
-        
-
     </div>
   )
 }
