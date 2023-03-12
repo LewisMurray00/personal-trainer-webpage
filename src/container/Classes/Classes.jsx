@@ -1,5 +1,5 @@
 import React from 'react'
-import './About.scss'
+import './Classes.scss'
 
 import { motion } from 'framer-motion';
 import { images } from '../../constants';
@@ -25,11 +25,11 @@ const abouts = [
     },
 ]
 
-const About = () => {
+const Classes = () => {
   return (
     <>
         <h2 className='head-text'>
-            Here is what i have available to help you <span>achieve your goals</span>
+            Here is the classes that i have available to help you <span>achieve your goals</span>
         </h2>
 
         <div className='app__profiles'>
@@ -52,7 +52,7 @@ const About = () => {
 }
 
 export default AppWrap(
-    MotionWrap(About, 'app__about'),
-    'about',
+    MotionWrap(Classes, 'app__about'),
+    'programmes',
     'app__whitebg'
 );

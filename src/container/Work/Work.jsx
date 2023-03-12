@@ -2,7 +2,7 @@ import React, { useState, useEffect } from 'react';
 import { animate, motion } from 'framer-motion';
 import { AppWrap, MotionWrap } from '../../wrapper';
 
-
+import { AiFillInstagram } from 'react-icons/ai'
 import { images } from '../../constants';
 import './Work.scss'
 
