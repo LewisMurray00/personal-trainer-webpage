@@ -1,15 +1,16 @@
 .app__navbar{
     width: 100%;
-
+    
     display: flex;
     justify-content: space-between;
     align-items: center;
-
+    
     padding: 1rem 2rem;
     background: hsla(0, 0%, 100%, 0.25);
     backdrop-filter: blur(4px);
     -webkit-backdrop-filter: blur(4px);
-    border: 1px solid rgba(255,255,255,0.185);
+    border: 1px solid rgba(255, 255, 255, 0.185);
+    position: fixed;
     z-index: 2;
 }
 
@@ -18,6 +19,7 @@
     justify-content: flex-start;
     align-items: center;
 
+    // SCSS allows for nested css 
     img{
         width: 90px;
         height: 20px;
@@ -53,7 +55,7 @@
         }
 
         a{
-            color: var(--grey-colour);
+            color: var(--gray-colour);
             text-decoration: none;
             flex-direction: column;
             
@@ -146,7 +148,7 @@
                 margin: 1rem;
 
                 a{
-                    color: var(--grey-colour);
+                    color: var(--gray-colour);
                     text-decoration: none;
                     font-size: 1rem;
                     text-transform: uppercase;
