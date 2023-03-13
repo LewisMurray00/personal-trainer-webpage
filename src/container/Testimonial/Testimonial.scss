@@ -22,5 +22,21 @@
         object-fit: cover;
     }
 
-    
+    @media screen and (min-width: 2000px){
+        min-height: 450px;
+
+        img{
+            width: 150px;
+            height: 150px;
+        }
+    }
+
+    @media screen and (max-width: 850px){
+        width: 100%;
+    }
+
+    @media screen and (max-width: 600px){
+        flex-direction: column;
+    }
 }
+
