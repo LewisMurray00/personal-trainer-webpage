@@ -1,0 +1,26 @@
+.app__testimonial{
+    flex: 1;
+    width: 100%;
+    flex-direction: column;
+}
+
+.app__testimonial-item{
+    width: 60%;
+    min-height: 60%;
+    background-color: var(--white-colour);
+    display: flex;
+    padding: 2rem;
+    border-radius: 15px;
+    box-shadow: 0 0 30px rgba(0,0,0,0.1);
+
+    transition: all 0.3s ease-in-out;
+
+    img{
+        width: 100px;
+        height: 100px;
+        border-radius: 50%;
+        object-fit: cover;
+    }
+
+    
+}
