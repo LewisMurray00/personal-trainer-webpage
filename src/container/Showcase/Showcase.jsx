@@ -31,7 +31,7 @@ const Showcase = () => {
 
   return (
     <>
-        <h2 className='app__showcase-header'>Take a look at <span>my transformations</span></h2>
+        <h2 className='app__showcase-header head-text'>Take a look at <span>my transformations</span></h2>
 
         <div className='app__showcase-item app__flex'>
             
