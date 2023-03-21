@@ -25,9 +25,14 @@ const Showcase = () => {
     const [currentIndex, setCurrentIndex] = useState(0);
     const show = showcases[currentIndex];
 
+    const handleClick = (index) => {
+        setCurrentIndex(index)
+    }
 
   return (
     <>
+        <h2 className='app__showcase-header'>Take a look at <span>my transformations</span></h2>
+
         <div className='app__showcase-item app__flex'>
             
             <img src={show.imgUrl} alt='showcase'/>
@@ -35,6 +40,15 @@ const Showcase = () => {
                 <h4>{show.name}</h4>
             </div>
 
+        </div>
+
+        <div className='app__showcase-btns app__flex'>
+            <div className='app__flex' onClick={(()=> handleClick(currentIndex === 0 ? showcases.length - 1 : currentIndex - 1))}>
+                <HiChevronLeft />
+            </div>
+            <div className='app__flex' onClick={(()=> handleClick(currentIndex === showcases.length - 1 ? 0 : currentIndex + 1))}>
+              <HiChevronRight />
+            </div>
         </div>
     </>
   )
