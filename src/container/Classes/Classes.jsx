@@ -7,16 +7,17 @@ import { images } from '../../constants';
 import { AppWrap } from '../../wrapper';
 import { MotionWrap } from '../../wrapper';
 
+
 const abouts = [
     {
         title: 'Online Coaching',
         description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut diam urna, tincidunt sed sodales quis, porttitor a metus. Sed et porta nibh. Proin posuere tortor non sem posuere, eu bibendum.',
-        imgUrl: images.onlineCoaching
+        imgUrl: images.computer
     },
     {
         title: '1-1 sessions',
         description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut diam urna, tincidunt sed sodales quis, porttitor a metus. Sed et porta nibh. Proin posuere tortor non sem posuere, eu bibendum.',
-        imgUrl: images.oneToOne
+        imgUrl: images.pressIcon
     },
     {
         title: 'Bootcamp',

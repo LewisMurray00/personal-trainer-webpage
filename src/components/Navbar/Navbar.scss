@@ -14,22 +14,22 @@
     z-index: 2;
 }
 
-.app__navbar-logo{
-    display: flex;
-    justify-content: flex-start;
-    align-items: center;
+// .app__navbar-logo{
+//     display: flex;
+//     justify-content: flex-start;
+//     align-items: center;
 
-    // SCSS allows for nested css 
-    img{
-        width: 90px;
-        height: 20px;
+//     // SCSS allows for nested css 
+//     img{
+//         width: 90px;
+//         height: 20px;
 
-        @media screen and (min-width: 2000px){
-            width: 180px;
-            height: 40px;
-        }
-    }
-}
+//         @media screen and (min-width: 2000px){
+//             width: 180px;
+//             height: 40px;
+//         }
+//     }
+// }
 
 .app__navbar-links{
     flex: 1;
@@ -87,6 +87,8 @@
     height: 35px;
     border-radius: 50%;
     position: relative;
+
+    left: 100%;
 
     display: flex;
     justify-content: center;
@@ -148,7 +150,7 @@
                 margin: 1rem;
 
                 a{
-                    color: var(--gray-colour);
+                    color: var(--grey-colour);
                     text-decoration: none;
                     font-size: 1rem;
                     text-transform: uppercase;

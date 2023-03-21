@@ -31,12 +31,12 @@ const Header = () => {
                     <div style={{ marginLeft: 20}}>
                         <p className='p-text'>Hello, I am</p>
                         {/* Edit name here */}
-                        <h1 className='head-text'>User</h1>
+                        <h1 className='head-text'>Caden</h1>
                     </div>
                 </div>
 
                 <div className='tag-cmpapp__flex'>
-                    <p className='p-text'>Personal Trainer</p>
+                    <p className='p-text'>Personal Trainer & PowerLifter</p>
                 </div>
 
             </div>    
