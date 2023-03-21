@@ -2,7 +2,7 @@ import React from 'react';
 import './App.scss';
 
 import {Navbar} from './components'
-import { Header, Work, Classes, Testimonial, Footer } from './container'
+import { Header, Work, Classes, Showcase,  Testimonial, Footer } from './container'
 
 function App() {
   return (
@@ -10,6 +10,7 @@ function App() {
       <Navbar />
       <Header />
       <Classes />
+      <Showcase />
       <Work />
       <Testimonial />
       <Footer />

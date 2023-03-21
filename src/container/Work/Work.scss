@@ -16,7 +16,7 @@
     .app__work-filter-item{
         padding: 0.5rem 1rem;
         border-radius: 0.5rem;
-        background-color: #fff;
+        background-color: var(--primary-colour);
         color: #000;
         font-weight: 800;
         cursor: pointer;
@@ -49,7 +49,7 @@
         padding: 1rem;
         border-radius: 0.5rem;
 
-        background-color: #fff;
+        background-color: var(--primary-colour);
         color: #000;
 
         cursor: pointer;

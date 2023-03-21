@@ -7,6 +7,10 @@ import dumbbellLogo from '../assets/dumbbell-icon.png';
 import runningIcon from '../assets/running-icon.png';
 import pressIcon from '../assets/press-icon.png'
 
+import charlieArcher from '../assets/charlie-archer.jpeg';
+import cadenOtter from '../assets/CadenOtter.jpeg';
+import lukeHopkins from '../assets/LukeHopkins.jpeg';
+
 import oneToOne from '../assets/1to1-sessions.png';
 import onlineCoaching from '../assets/online-coaching.png';
 import bootcamp from '../assets/bootcamp.png';
@@ -24,4 +28,7 @@ export default {
     onlineCoaching,
     bootcamp,
     computer,
+    lukeHopkins,
+    charlieArcher,
+    cadenOtter
 };
