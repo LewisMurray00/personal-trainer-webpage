@@ -30,5 +30,6 @@ export default {
     computer,
     lukeHopkins,
     charlieArcher,
-    cadenOtter
+    cadenOtter,
+    dumbbellLogo
 };

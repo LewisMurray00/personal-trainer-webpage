@@ -13,7 +13,7 @@ const Footer = () => {
             
             <div className='app__footer-card'>
                 <AiFillInstagram className='app__footer-card-img' />
-                <a href="www.instagram.com" className='p-text'>Follow me!</a>
+                <a href="https://www.instagram.com" className='p-text' target='_blank'>Follow me!</a>
             </div>
 
             <div className='app__footer-card'>
