@@ -16,6 +16,10 @@ import onlineCoaching from '../assets/online-coaching.png';
 import bootcamp from '../assets/bootcamp.png';
 import computer from '../assets/computer-icon.png'
 
+import goalSetting from '../assets/bullseye.png';
+import nutrition from '../assets/nutrition.png';
+import support from '../assets/twentyfourseven-support.jpg'
+
 export default {
     logo,
     profile,
@@ -31,5 +35,8 @@ export default {
     lukeHopkins,
     charlieArcher,
     cadenOtter,
-    dumbbellLogo
+    dumbbellLogo,
+    goalSetting,
+    nutrition,
+    support,
 };

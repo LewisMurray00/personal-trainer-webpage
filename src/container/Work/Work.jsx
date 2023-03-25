@@ -8,32 +8,39 @@ import './Work.scss'
 
 const project = [
     {
-        title: 'Diet plans',
+        title: 'Nutrition',
         description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut diam urna, tincidunt sed sodales quis, porttitor a metus. Sed et porta nibh. Proin posuere tortor non sem posuere, eu bibendum.',
-        projectLink: 'www.instagram.com',
-        imgUrl: images.pressIcon,
-        tags: 'Diets'
+        projectLink: 'https://www.instagram.com',
+        imgUrl: images.nutrition,
+        tags: 'Nutrition'
     },
     {
-        title: 'Weight sessions',
+        title: 'Cardio Management',
         description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut diam urna, tincidunt sed sodales quis, porttitor a metus. Sed et porta nibh. Proin posuere tortor non sem posuere, eu bibendum.',
-        projectLink: 'www.instagram.com',
+        projectLink: 'https://www.instagram.com',
+        imgUrl: images.runningIcon,
+        tags: 'Cardio' 
+    },
+    {
+        title: 'Strength Programming',
+        description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut diam urna, tincidunt sed sodales quis, porttitor a metus. Sed et porta nibh. Proin posuere tortor non sem posuere, eu bibendum.',
+        projectLink: 'https://www.instagram.com',
         imgUrl: images.dumbbellLogo,
-        tags: 'Strength' 
+        tags: 'Strength'
     },
     {
-        title: 'Cardio sessions',
+        title: 'Goal Setting',
         description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut diam urna, tincidunt sed sodales quis, porttitor a metus. Sed et porta nibh. Proin posuere tortor non sem posuere, eu bibendum.',
-        projectLink: 'www.instagram.com',
-        imgUrl: images.dumbbellLogo,
-        tags: 'Cardio'
+        projectLink: 'https://www.instagram.com',
+        imgUrl: images.goalSetting,
+        tags: 'Goal Setting'
     },
     {
-        title: 'Accountability',
+        title: '24/7 Support',
         description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut diam urna, tincidunt sed sodales quis, porttitor a metus. Sed et porta nibh. Proin posuere tortor non sem posuere, eu bibendum.',
-        projectLink: 'www.instagram.com',
-        imgUrl: images.oneToOne,
-        tags: 'Accountability'
+        projectLink: 'https://www.instagram.com',
+        imgUrl: images.support,
+        tags: 'Support' 
     }
 ]
 
