@@ -11,19 +11,19 @@ import { MotionWrap } from '../../wrapper';
 const abouts = [
     {
         title: 'Online Coaching',
-        description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut diam urna, tincidunt sed sodales quis, porttitor a metus. Sed et porta nibh. Proin posuere tortor non sem posuere, eu bibendum.',
+        description: 'I offer personalised online coaching tailer made to suit your requirements to get you in your ideal shape and mindset.',
         imgUrl: images.computer
     },
     {
         title: '1-1 sessions',
-        description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut diam urna, tincidunt sed sodales quis, porttitor a metus. Sed et porta nibh. Proin posuere tortor non sem posuere, eu bibendum.',
+        description: 'Fancy something a bit more personal ? I offer 1-1 sessions where you can get that in person experience where i can make sure everything you are doing is correct and can provide more assistance and support.',
         imgUrl: images.pressIcon
     },
-    {
-        title: 'Bootcamp',
-        description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut diam urna, tincidunt sed sodales quis, porttitor a metus. Sed et porta nibh. Proin posuere tortor non sem posuere, eu bibendum.',
-        imgUrl: images.bootcamp
-    },
+    // {
+    //     title: 'Bootcamp',
+    //     description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut diam urna, tincidunt sed sodales quis, porttitor a metus. Sed et porta nibh. Proin posuere tortor non sem posuere, eu bibendum.',
+    //     imgUrl: images.bootcamp
+    // },
 ]
 
 const Classes = () => {

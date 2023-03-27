@@ -9,35 +9,35 @@ import './Work.scss'
 const project = [
     {
         title: 'Nutrition',
-        description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut diam urna, tincidunt sed sodales quis, porttitor a metus. Sed et porta nibh. Proin posuere tortor non sem posuere, eu bibendum.',
+        description: 'I offer Nutritional counseling and diet planning to help you achieve your desired body shape, whether you wish to lose weight or gain it.',
         projectLink: 'https://www.instagram.com',
         imgUrl: images.nutrition,
         tags: 'Nutrition'
     },
     {
         title: 'Cardio Management',
-        description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut diam urna, tincidunt sed sodales quis, porttitor a metus. Sed et porta nibh. Proin posuere tortor non sem posuere, eu bibendum.',
+        description: 'I offer the finest cardio plan to get your fitness level to a height that it has never been before',
         projectLink: 'https://www.instagram.com',
         imgUrl: images.runningIcon,
         tags: 'Cardio' 
     },
     {
         title: 'Strength Programming',
-        description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut diam urna, tincidunt sed sodales quis, porttitor a metus. Sed et porta nibh. Proin posuere tortor non sem posuere, eu bibendum.',
+        description: 'Having competed in powerlifting competitions myself, i know what it takes to push my body to new limits and get as strong as i possibly can, something i will help you with along this journey together.',
         projectLink: 'https://www.instagram.com',
         imgUrl: images.dumbbellLogo,
         tags: 'Strength'
     },
     {
         title: 'Goal Setting',
-        description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut diam urna, tincidunt sed sodales quis, porttitor a metus. Sed et porta nibh. Proin posuere tortor non sem posuere, eu bibendum.',
+        description: 'Whilst getting you into the best physical shape you possibly can reach, i help you set goals along the way and make sure they are completed during your time with me.',
         projectLink: 'https://www.instagram.com',
         imgUrl: images.goalSetting,
         tags: 'Goal Setting'
     },
     {
         title: '24/7 Support',
-        description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut diam urna, tincidunt sed sodales quis, porttitor a metus. Sed et porta nibh. Proin posuere tortor non sem posuere, eu bibendum.',
+        description: 'I provide 24/7 support so you can reach out to me anytime with any questions you may have.',
         projectLink: 'https://www.instagram.com',
         imgUrl: images.support,
         tags: 'Support' 
@@ -53,7 +53,7 @@ const Work = () => {
         <h2>What you get by <span>Working with me</span></h2>
 
         <div className='app__work-filter'>
-            {['Cardio', 'Strength', 'Diets', 'Accountability', 'Goal Setting'].map((item,index)=>(
+            {['Nutrition', 'Cardio', 'Strength', 'Goal Setting', 'Support'].map((item,index)=>(
                 <div 
                 key={index}
                 className='app__work-filter-item app__flex p-text'
